@@ -2,7 +2,7 @@
 import { useCartStore } from '@/store/cartStore';
 import Image from 'next/image';
 import React from 'react';
-import { FaHome, FaTshirt, FaGift, FaBriefcase, FaShoppingCart } from 'react-icons/fa';
+import { FaShoppingCart } from 'react-icons/fa';
 
 const Sidebar = () => {
   const {items} = useCartStore()

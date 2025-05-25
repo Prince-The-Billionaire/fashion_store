@@ -1,6 +1,6 @@
 import ChildrenDayBanner from "@/components/Banner";
-import Experience3D from "@/components/Experience3D";
-import Exquisite from "@/components/Exquisite";
+// import Experience3D from "@/components/Experience3D";
+// import Exquisite from "@/components/Exquisite";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ImageReveal from "@/components/ImageReveal";
@@ -8,7 +8,7 @@ import JoinWhatsAppForm from "@/components/JoinWhatsAppForm";
 import Sidebar from "@/components/Sidebar";
 import SocialProof from "@/components/SocialProof";
 import Store from "@/components/Store";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function Home() {
   return (

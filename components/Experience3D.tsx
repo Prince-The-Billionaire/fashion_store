@@ -15,7 +15,7 @@ function RoomModel() {
 // Camera controller with GSAP animation
 function CameraController({ startExperience }: { startExperience: boolean }) {
   const { camera } = useThree();
-  const initialPos = useRef([0, 5, 10]);
+//   const initialPos = useRef([0, 5, 10]);
   const targetPos = [30, 2.2, 30]; // raise camera higher for mannequin view
 
   useFrame(() => {
