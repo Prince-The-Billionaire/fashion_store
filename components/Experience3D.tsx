@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef, useState, Suspense } from "react";
+import React, {useState, Suspense } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { OrbitControls, useGLTF, Environment } from "@react-three/drei";
 import { gsap } from "gsap";
